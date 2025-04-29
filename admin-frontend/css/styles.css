@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+  }
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  #userList button {
+    display: block;
+    margin: 5px 0;
+    width: 250px;
+  }
+  
+  .chatbox {
+    border: 1px solid #ccc;
+    height: 400px;
+    overflow-y: scroll;
+    padding: 20px;
+    margin-top: 20px;
+    background: #f5f5f5;
+  }
+  
+  .user-msg {
+    background-color: #d1e7dd;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  .bot-msg {
+    background-color: #f8d7da;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  

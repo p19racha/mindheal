@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Mind Heal</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Teko:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>mindheal</h1>
+        <p class="login-text">Create your account</p>
+        <form class="login-form" id="registerForm">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Full name" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email address" required>
+            </div>
+            <div class="input-group">
+                <input type="tel" id="phone" placeholder="Phone Number" required>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="button" class="toggle-password">
+                    <span class="material-icons">visibility_off</span>
+                </button>
+            </div>
+            
+            <button type="submit" class="chat-button auth-button" onclick="window.location.href='dashboard.html'">Sign up</button>
+        </form>
+        <div class="form-footer">
+            <span>Already have an account?</span>
+            <a href="login.html" class="sign-up">Log in</a>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/register.js"></script>
+
+</body>
+</html>
