@@ -113,15 +113,6 @@ Backend server will be available at:
 
 ---
 
-## 👥 Contributors
-
-| Name | Role |
-|:-----|:-----|
-| Dinesh | Creator & Full Stack Developer |
-| ChatGPT (OpenAI) | Technical Advisor & Debugging Assistance |
-
----
-
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
